@@ -1,0 +1,16 @@
+.loader {
+  border: solid 0.5rem #ff5aaa;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  animation: loader 1s infinite;
+}
+
+@keyframes loader {
+  0% {
+    border: solid 0.5rem #ff5aaa;
+  }
+  100% {
+    border: solid 0.1rem #ff5aaa;
+  }
+}

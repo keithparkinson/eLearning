@@ -1,0 +1,40 @@
+/* .course_container_footer:hover {
+  height: 5rem;
+  transition: 1s;
+} */
+.course_container {
+  background-color: #4a8cd7;
+  width: 15rem;
+  height: 16.6rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.course_title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.course_container:hover {
+}
+
+.course_progress_bar {
+  width: 11.3rem;
+  height: 0.25rem;
+  background-color: #ff5aaa;
+  margin: 1rem 0 0 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.course_container_footer {
+  background-color: #29244e;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 0 0 0.3rem 0.3rem;
+}

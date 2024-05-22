@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  gap: 2rem;
+  width: 50rem;
+  /* height: 80rem; */
+  padding: 1rem;
+  color: #152d30;
+  overflow-y: auto;
+}
+
+.sectionOne {
+  border-bottom: thin solid #152d30;
+}
+
+.textarea {
+  resize: none;
+  box-sizing: border-box;
+  width: 48rem;
+  height: 15rem;
+  border-radius: 5px;
+  background-color: #fafafa;
+  padding: 1rem;
+  font-size: 16px;
+  font-family: "inter";
+}
+
+.sectionTwo {
+  border-bottom: thin solid #152d30;
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  width: 25rem;
+  padding: 1rem;
+}
+
+.label:hover {
+  border: thin solid #152d30;
+  transition: 600ms;
+}
+
+.sectionThree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  height: 18rem;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #152d30;
+  /* font-size: 16px; */
+  font-weight: 600;
+}

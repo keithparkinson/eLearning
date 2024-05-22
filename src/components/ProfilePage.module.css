@@ -1,0 +1,138 @@
+.profile {
+  display: grid;
+  grid-template-columns: 53.4rem 37.4rem;
+  grid-template-rows: 18.9rem 18.9rem 18.9rem;
+  gap: 2rem;
+  padding: 2rem;
+  max-height: 100%;
+  color: #152d30;
+}
+.profile_picture_container,
+.profile_imformation_container,
+.profile_reset_password_container {
+  border-radius: 0.3rem;
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 1.5rem;
+}
+
+.header,
+.information_header {
+  margin-bottom: 2rem;
+}
+/* ////////////////////////////////// */
+/* Profile Picture Section */
+/* ////////////////////////////////// */
+.profile_picture_container {
+  gap: 1.5rem;
+}
+
+.img_frame {
+  width: 12.7rem;
+  height: 11.7rem;
+  background-color: #34555a;
+  border-radius: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.upload_btn {
+  height: 2.6rem;
+  border-radius: 0.6rem;
+  border: 0.09rem solid;
+}
+
+.profile_detail {
+  font-size: 1.1rem;
+}
+
+.profile_detail,
+.profile_img {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* ////////////////////////////////// */
+/* Profile Information Section */
+/* ////////////////////////////////// */
+.profile_imformation_container {
+  grid-row: 2/3;
+  flex-direction: column;
+}
+
+.information_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit_btn {
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+}
+
+.edit_btn:hover {
+  background-color: #d1e2e4;
+  transition: 600ms;
+}
+
+.profile_information_list {
+  margin-left: 1rem;
+  padding-right: 3rem;
+}
+
+.list {
+  padding: 0.8rem;
+  border-bottom: #152d30 solid 0.1rem;
+}
+
+/* ////////////////////////////////// */
+/* Password Reset Section */
+/* ////////////////////////////////// */
+.profile_reset_password_container {
+  grid-row: 3/4;
+  flex-direction: column;
+}
+
+.reset_password_input {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 5.7rem 5.7rem;
+  margin-top: 0.5rem;
+}
+
+.input_container_1,
+.input_container_2,
+.input_container_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input_container_2 {
+  grid-column: 1/2;
+}
+
+.input_container_3 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.textbox {
+  width: 18.8rem;
+  height: 2.7rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  padding: 0 0 0 1rem;
+}
+
+.profile_information_edit_container {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}

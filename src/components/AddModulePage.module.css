@@ -1,0 +1,50 @@
+.container {
+  width: 90.9rem;
+  height: 52.8rem;
+  background-color: #f9f8f8;
+  border-radius: 5px;
+  margin: 4rem 0 0 4rem;
+}
+
+.header {
+  padding: 2rem 1rem 0 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.searchSection {
+  /* padding-left: 28rem; */
+  /* margin-bottom: rem; */
+}
+
+.addButton {
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+}
+
+.button {
+  font-size: 16px;
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #e45399;
+  margin-left: 2rem;
+}
+
+.moduleList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  gap: 1rem;
+  overflow: auto;
+}

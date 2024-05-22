@@ -1,0 +1,15 @@
+.button {
+  background-color: transparent;
+  position: absolute;
+  transform: translate(-47.3rem, 1rem);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.description {
+  background-color: aqua;
+  position: absolute;
+  padding: 1rem;
+  border: 0.5rem solid red;
+  transform: translate(15rem, -20rem);
+}

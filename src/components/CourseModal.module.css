@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  width: 40.3rem;
+  height: 18.8rem;
+  background-color: #deeff1;
+  border-radius: 10px;
+  transform: translate(-16rem, 0);
+}
+
+.edit {
+  transform: translate(-16rem, 0);
+}
+
+.module-edit {
+  transform: translate(25rem, -40rem);
+}
+
+/* courses page - to create a new course */
+.new-course {
+  transform: translate(25rem, -10rem);
+}
+
+.edit-site {
+  transform: translate(25rem, -33rem);
+}
+
+/* courses page - to edit Course */
+.edit-course {
+  transform: translate(25rem, -10rem);
+}

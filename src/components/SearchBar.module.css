@@ -1,0 +1,22 @@
+.searchBar {
+  width: 27.4rem;
+  height: 2.4rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f1f1;
+  padding-left: 2.5rem;
+  color: #152d30;
+  background-image: url(${searchIcon});
+  background-repeat: no-repeat;
+  background-position: 8px 5px;
+}
+
+.learner-page {
+  background-color: #fafafa;
+}
+
+.drop-list {
+  background-color: #fafafa;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}

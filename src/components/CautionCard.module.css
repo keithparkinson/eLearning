@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #deeff1;
+  width: 38rem;
+  height: 18rem;
+  font-size: 48px;
+  font-weight: 500;
+  border-radius: 10px;
+  color: #152d30;
+}
+
+.course-module,
+.learners,
+.courses,
+.add-modules,
+.modules {
+  margin-left: 25rem;
+}

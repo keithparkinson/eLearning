@@ -1,0 +1,138 @@
+.container {
+  width: 90.9rem;
+  height: 52.8rem;
+  background-color: #f9f8f8;
+  border-radius: 5px;
+  margin: 4rem 0 0 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.9rem;
+  padding: 0 2rem 0 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.addLearner_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  width: 13.6rem;
+  padding: 0.8rem 0 0.8rem 0;
+  border-radius: 10px;
+  border: none;
+  background-color: #e45399;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #152d30;
+  cursor: pointer;
+}
+
+.searchSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem 0 2rem;
+  height: 4.3rem;
+}
+
+.filterButton {
+  background-color: #6c9399;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 15rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.filterButton:hover {
+  background-color: #abced3;
+  transition: 500ms;
+}
+
+.courseList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  height: 25rem;
+  transform: translate(3.8rem, 13.8rem);
+  overflow-y: auto;
+}
+
+.filterItem {
+  width: 14.8rem;
+  padding: 0.5rem 0 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: thin solid #152d30;
+  background-color: #6c9399;
+  cursor: pointer;
+}
+
+.filterItem:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.filterItem:hover {
+  background-color: #abced3;
+  transition: 500ms;
+}
+
+.siteList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  height: 25rem;
+  transform: translate(19.8rem, 13.8rem);
+  overflow-y: auto;
+}
+
+.actionButton {
+  border: none;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  width: 3rem;
+  background-color: transparent;
+}
+
+.table {
+  width: 90.9rem;
+  border-spacing: 0;
+  color: #152d30;
+}
+
+.row {
+  height: 4.3rem;
+}
+
+.row:nth-child(even) {
+  background-color: #deeff1;
+}
+
+.row:hover {
+  background-color: #f1f1f1;
+  transition: 500ms;
+}
+
+.link {
+  text-decoration: none;
+  color: #152d30;
+}

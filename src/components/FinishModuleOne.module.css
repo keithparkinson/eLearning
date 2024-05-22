@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1rem;
+  font-size: 16px;
+  color: #152d30;
+}
+
+.header {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.sectionOne {
+  padding: 1rem 4rem 1rem 4rem;
+  margin-bottom: 2rem;
+}
+
+.sectionTwo {
+  margin-bottom: 2rem;
+}
+
+.sectionThree {
+  margin-bottom: 2rem;
+}

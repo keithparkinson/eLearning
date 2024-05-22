@@ -1,0 +1,18 @@
+.save {
+  background-color: #d94f91;
+}
+
+.save:hover {
+  background-color: #ff5aaa;
+  transition: 400ms;
+}
+
+.cancel {
+  background-color: #6c9399;
+  margin-right: 2rem;
+}
+
+.cancel:hover {
+  background-color: #abced3;
+  transition: 400ms;
+}

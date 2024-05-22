@@ -1,0 +1,63 @@
+/* ////////////////////////////////// */
+/* Profile Information Edit Section */
+/* ////////////////////////////////// */
+.profile_information_edit_container {
+  border-radius: 0.3rem;
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 1.5rem;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.information_textbox {
+  height: 2.7rem;
+  width: 27.8rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0 0 0 1rem;
+}
+
+.button_container {
+  margin-top: 10rem;
+}
+
+.btn_1,
+.btn_2 {
+  width: 8.3rem;
+  height: 2.6rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #152d30;
+  border-radius: 0.6rem;
+  border: none;
+}
+
+.btn_1 {
+  background-color: #6c9399;
+  margin-right: 2rem;
+}
+
+.btn_1:hover {
+  background-color: #abced3;
+  transition: 600ms;
+}
+
+.btn_2 {
+  background-color: #e45399;
+}
+
+.btn_2:hover {
+  background-color: #ff5aaa;
+  transition: 600ms;
+}

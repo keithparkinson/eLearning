@@ -1,0 +1,46 @@
+.templateList {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.template {
+  width: 20.8rem;
+  height: 30.6rem;
+  background-color: white;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.sectionOne {
+  width: 20.8rem;
+  height: 10rem;
+  border-bottom: thin solid #152d30;
+}
+
+.sectionTwo {
+  width: 20.8rem;
+  height: 10rem;
+  border-bottom: thin solid #152d30;
+}
+
+.sectionThree {
+  width: 20.8rem;
+  height: 10rem;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  margin: 4rem 0 0 30rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  color: #152d30;
+}

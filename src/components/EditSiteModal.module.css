@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 41.3rem;
+  height: 27.8rem;
+  background-color: #deeff1;
+  border-radius: 10px;
+}
+
+.input {
+  width: 27.1rem;
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.dropButton {
+  width: 27.1rem;
+  padding: 0.5rem 0 0.5rem 6rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  background-color: #6c9399;
+  border: none;
+  color: #152d30;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.courseList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 15rem;
+  margin-bottom: 0.5rem;
+  overflow-y: auto;
+  color: #152d30;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0 0.5rem 0;
+  border-bottom: thin solid #152d30;
+  width: 27.1rem;
+  background-color: #6c9399;
+}
+
+.courseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 41.3rem;
+  height: 27.8rem;
+  background-color: #deeff1;
+  border-radius: 10px;
+  transform: translate(25rem, -25rem);
+}
+
+/* for the courses page */
+.courses {
+  transform: translate(25rem, -10rem);
+}
+
+/* for the selected course page */
+.course {
+  transform: translate(-15rem, -2rem);
+  z-index: 100;
+}
+
+/* for the site page */
+.site {
+  transform: translate(25rem, -40rem);
+}

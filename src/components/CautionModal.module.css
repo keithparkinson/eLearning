@@ -1,0 +1,30 @@
+.container {
+  width: 20rem;
+  padding: 1rem;
+  background-color: #6dd1ba;
+  color: #152d30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button {
+  padding: 0.2rem;
+  font-size: 16px;
+  color: #152d30;
+  width: 3rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.create-module {
+  transform: translate(20rem, -25rem);
+}
+
+.learner-page {
+  position: absolute;
+  transform: translate(35rem, 10rem);
+}

@@ -1,0 +1,103 @@
+.container {
+  width: 91rem;
+  height: 52.8rem;
+  background-color: #f9f8f8;
+  border-radius: 5px;
+  margin: 4rem 0 0 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.9rem;
+  padding: 0 2rem 0 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.addSite_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 0 0.8rem 0;
+  width: 13.2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #e45399;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #152d30;
+}
+
+.searchSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem 0 2rem;
+  height: 4.3rem;
+}
+
+.actionButton {
+  border: none;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  width: 3rem;
+  background-color: transparent;
+}
+
+.courseList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  /* gap: 1rem; */
+  position: absolute;
+  overflow-y: auto;
+  transform: translate(76rem, -1.8rem);
+  list-style-type: none;
+  height: 25rem;
+}
+
+.courseItem {
+  display: flex;
+  justify-content: center;
+  border-bottom: thin solid #152d30;
+  width: 13rem;
+  padding: 0.5rem 0 0.5rem 0;
+  background-color: #6c9399;
+}
+
+.courseItem:first-child {
+  margin-top: 1rem;
+}
+
+.table {
+  width: 90.9rem;
+  border-spacing: 0;
+}
+
+.row {
+  height: 4.3rem;
+}
+
+.row:nth-child(even) {
+  background-color: #deeff1;
+}
+
+.row:hover {
+  background-color: #f1f1f1;
+  transition: 500ms;
+}
+
+.link {
+  text-decoration: none;
+  color: #152d30;
+}

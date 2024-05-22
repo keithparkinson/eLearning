@@ -1,0 +1,114 @@
+.container {
+  width: 42.3rem;
+  height: 26.8rem;
+  background-color: #deeff1;
+  border-radius: 10px;
+  transform: translate(25rem, -35rem);
+  color: #152d30;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.closeButton {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.searchSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.learnersList {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  position: absolute;
+  transform: translate(0, 2.7rem);
+  list-style: none;
+  overflow-y: auto;
+  color: #152d30;
+  cursor: pointer;
+}
+
+.listItem {
+  width: 27.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-bottom: thin solid #152d30;
+  padding: 0.7rem 0 0.7rem 0;
+}
+
+.learnersSection {
+  height: 17.1rem;
+  width: 29.1rem;
+  background-color: #fafafa;
+  border-radius: 5px;
+  /* gap: 0.5rem; */
+  padding: 0.7rem;
+}
+
+.selectedLearnerList {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  height: 16rem;
+  cursor: pointer;
+}
+
+.slectedListItem {
+  background-color: #ff5aaa;
+  height: 1.5rem;
+  padding: 0 0.5rem 0 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.removeButton {
+  background-color: transparent;
+  border: none;
+  margin-top: 0.2rem;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 11rem;
+}
+
+.button {
+  font-size: 16px;
+  padding: 0.5rem 0 0.5rem 0;
+  width: 9rem;
+  border-radius: 10px;
+  border: none;
+  color: #152d30;
+  background-color: #ff5aaa;
+  cursor: pointer;
+}
+
+.addLearnerButton {
+  background-color: #6c9399;
+}

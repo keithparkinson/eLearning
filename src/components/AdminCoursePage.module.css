@@ -1,0 +1,70 @@
+.container {
+  width: 90.9rem;
+  height: 52.8rem;
+  background-color: #f9f8f8;
+  border-radius: 5px;
+  margin: 4rem 0 0 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.9rem;
+  padding: 0 2rem 0 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.addCourse_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  width: 13.6rem;
+  padding: 0.8rem 0 0.8rem 0;
+  border-radius: 10px;
+  border: none;
+  background-color: #e45399;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #152d30;
+  cursor: pointer;
+}
+
+.searchBarSection {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 2rem;
+  height: 4.3rem;
+}
+
+.table {
+  width: 90.9rem;
+  border-spacing: 0;
+}
+
+.row {
+  height: 4.3rem;
+}
+
+.row:nth-child(even) {
+  background-color: #deeff1;
+}
+
+.row:hover {
+  background-color: #f1f1f1;
+  transition: 500ms;
+}
+
+.link {
+  text-decoration: none;
+  color: #152d30;
+}
